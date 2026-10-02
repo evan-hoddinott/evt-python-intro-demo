@@ -3,4 +3,4 @@
 
 def to_kmh(speed_mps):
     # This formula has a deliberate bug. Fix it during class.
-    return speed_mps / 3.6
+    return speed_mps * 3.6

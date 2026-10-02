@@ -1,6 +1,4 @@
-# Run this file, then change the speed and run it again.
-team = "EVT"
+from speed import to_kmh
 speed_mps = 10
-
-print(team)
-print(speed_mps)
+speed_kmh = to_kmh(speed_mps)
+print("Speed in km/h:", speed_kmh)
